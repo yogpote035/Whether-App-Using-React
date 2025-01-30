@@ -1,6 +1,5 @@
 {
   "name": "mui-1st",
-  "homepage": "https://yogpote035.github.io/Whether-App",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -18,7 +15,6 @@
     "@fontsource/roboto": "^5.1.0",
     "@mui/icons-material": "^6.3.0",
     "@mui/material": "^6.3.0",
-    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
